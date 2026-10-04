@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Eastern Himalaya transboundary tiger landscape</title>
+<desc id="desc">Schematic map showing Northeast India and neighboring Nepal, Bhutan, Bangladesh, and Myanmar, with cross-border tiger connectivity highlighted.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0f2d24"/>
+    <stop offset="100%" stop-color="#244a3b"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="10" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1200" height="760" fill="url(#bg)"/>
+
+<!-- subtle terrain lines -->
+<g fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="2">
+  <path d="M35 120 C230 60, 360 190, 560 120 S920 80, 1180 130"/>
+  <path d="M10 170 C220 105, 380 240, 600 165 S950 120, 1190 175"/>
+  <path d="M5 220 C250 150, 420 280, 640 220 S960 170, 1195 230"/>
+</g>
+
+<!-- country / region shapes, intentionally schematic -->
+<g stroke="#dfe7df" stroke-width="3">
+  <path d="M130 300 L330 250 L415 290 L385 355 L205 370 L120 345 Z" fill="#547263"/>
+  <path d="M410 245 L545 220 L625 255 L600 330 L470 325 L395 290 Z" fill="#6f8978"/>
+  <path d="M515 330 L770 275 L875 340 L825 510 L640 565 L500 500 Z" fill="#89a08e"/>
+  <path d="M520 500 L650 545 L620 655 L490 635 L455 565 Z" fill="#678271"/>
+  <path d="M830 335 L1000 310 L1080 430 L1035 650 L905 610 L820 510 Z" fill="#587665"/>
+</g>
+
+<!-- Northeast India emphasis -->
+<path d="M570 345 L750 310 L835 360 L785 485 L655 530 L545 485 Z"
+      fill="#c66b3d" fill-opacity=".40" stroke="#f2a777" stroke-width="4"/>
+
+<!-- connectivity arcs -->
+<g fill="none" stroke="#f0a06d" stroke-width="12" stroke-linecap="round" filter="url(#glow)" opacity=".92">
+  <path d="M610 405 C560 330, 530 285, 500 270"/>
+  <path d="M680 420 C740 350, 820 345, 900 380"/>
+  <path d="M655 470 C620 520, 575 555, 535 575"/>
+  <path d="M610 390 C500 350, 405 320, 320 315"/>
+</g>
+<g fill="#f7d4bd">
+  <circle cx="610" cy="405" r="10"/>
+  <circle cx="500" cy="270" r="8"/>
+  <circle cx="900" cy="380" r="8"/>
+  <circle cx="535" cy="575" r="8"/>
+  <circle cx="320" cy="315" r="8"/>
+</g>
+
+<!-- labels -->
+<g font-family="Arial, Helvetica, sans-serif" fill="#f6f2e9">
+  <text x="205" y="320" font-size="30" font-weight="700">Nepal</text>
+  <text x="462" y="270" font-size="30" font-weight="700">Bhutan</text>
+  <text x="650" y="405" font-size="34" font-weight="700">Northeast India</text>
+  <text x="492" y="600" font-size="28" font-weight="700">Bangladesh</text>
+  <text x="910" y="455" font-size="30" font-weight="700">Myanmar</text>
+
+  <text x="65" y="70" font-size="23" letter-spacing="3" fill="#e8a17b">TRANSBOUNDARY TIGER LANDSCAPES</text>
+  <text x="65" y="705" font-size="18" fill="#d4ddd6">Eastern Himalaya–Northeast India · schematic, not to scale</text>
+</g>
+</svg>
