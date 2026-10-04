@@ -3,235 +3,332 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Jyotish Ranjan Deka is a wildlife ecologist studying tiger connectivity, human–wildlife coexistence, transboundary conservation, and conservation technology.">
+  <meta name="description" content="Jyotish Ranjan Deka is a wildlife ecologist studying Bengal tiger connectivity, human–wildlife coexistence, transboundary conservation, and non-invasive wildlife monitoring.">
+  <meta name="theme-color" content="#10251d">
   <title>Jyotish Ranjan Deka | Wildlife Ecologist</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header class="site-header" id="top">
     <div class="container nav-wrap">
-      <a class="brand" href="#top">Jyotish Ranjan Deka</a>
-      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button>
+      <a class="brand" href="#top">JRD</a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        Menu
+      </button>
+
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
+        <a href="#projects">Current work</a>
         <a href="#fieldwork">Fieldwork</a>
         <a href="#publications">Publications</a>
         <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a class="nav-contact" href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-image" role="img" aria-label="Field research in a tiger landscape"></div>
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <p class="eyebrow light">Wildlife Ecologist · Conservation Scientist</p>
-        <h1>I study how tigers and other large mammals move, persist, and coexist with people across connected landscapes.</h1>
-        <p class="hero-copy">My research combines field ecology, camera traps, passive acoustics, remote sensing, and spatial modelling, with a focus on Northeast India and the wider South Asian landscape.</p>
-        <div class="button-row">
-          <a class="button button-primary" href="#research">Explore my research</a>
-          <a class="button button-ghost" href="#publications">Publications</a>
-        </div>
-        <p class="affiliation">PhD Candidate · Department of Forest &amp; Wildlife Ecology · University of Wisconsin–Madison</p>
-      </div>
-    </section>
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="landscape-lines" aria-hidden="true"></div>
 
-    <section class="section intro" id="research">
-      <div class="container narrow">
-        <p class="eyebrow">Research</p>
-        <h2>Connected landscapes are at the center of my work.</h2>
-        <p class="lead">Protected areas are essential, but wildlife does not stop at their boundaries. I study what happens between them: movement, coexistence, ecological connectivity, and the technologies that can help us monitor wildlife across large landscapes.</p>
-      </div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow light">Wildlife ecologist · Northeast India</p>
+          <h1>Jyotish Ranjan Deka</h1>
+          <p class="hero-statement">How do tigers persist in landscapes shared with people?</p>
+          <p class="hero-description">
+            I study tiger connectivity, human–wildlife coexistence, and transboundary conservation—linking field ecology with spatial science to understand where large mammals can move and persist.
+          </p>
 
-      <div class="container themes-grid">
-        <article class="theme-card">
-          <span class="theme-number">01</span>
-          <h3>Tiger Connectivity</h3>
-          <p class="question">How do tigers move between protected areas?</p>
-          <p>I study where tiger populations remain connected, what limits movement, and which corridors are most important for long-term persistence.</p>
-          <p class="tags">Corridor ecology · Landscape connectivity · Tiger conservation</p>
-        </article>
-
-        <article class="theme-card">
-          <span class="theme-number">02</span>
-          <h3>Human–Wildlife Coexistence</h3>
-          <p class="question">Why do people and large mammals come into conflict in some landscapes but not others?</p>
-          <p>I examine how wildlife connectivity, protected areas, human development, and the wildland–urban interface shape human–wildlife interactions.</p>
-          <p class="tags">Human–wildlife interactions · WUI · Connectivity</p>
-        </article>
-
-        <article class="theme-card">
-          <span class="theme-number">03</span>
-          <h3>Transboundary Conservation</h3>
-          <p class="question">How can wildlife remain connected across international borders?</p>
-          <p>I study transboundary tiger connectivity to identify important movement routes, vulnerable corridors, and opportunities for coordinated conservation.</p>
-          <p class="tags">Transboundary ecology · Corridors · Metapopulations</p>
-        </article>
-
-        <article class="theme-card">
-          <span class="theme-number">04</span>
-          <h3>Conservation Technology</h3>
-          <p class="question">Can we monitor tigers in new ways?</p>
-          <p>I use camera traps, passive acoustics, remote sensing, and machine learning to develop non-invasive approaches for monitoring tigers and other large mammals.</p>
-          <p class="tags">Passive acoustics · Camera traps · AI · Remote sensing</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section dark-section">
-      <div class="container">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow light">Approach</p>
-            <h2>From fieldwork to landscapes.</h2>
+          <div class="button-row">
+            <a class="button primary" href="#research">Explore my research</a>
+            <a class="button secondary" href="#projects">Current work</a>
           </div>
-          <p>My research starts with ecological observations on the ground and connects them to landscape-scale conservation questions.</p>
+
+          <p class="affiliation">
+            PhD Candidate · Department of Forest &amp; Wildlife Ecology · University of Wisconsin–Madison
+          </p>
         </div>
 
-        <div class="process" aria-label="Research process">
-          <div class="process-step"><span>01</span><strong>Field ecology</strong><small>Wildlife signs &amp; habitat</small></div>
-          <div class="process-arrow">→</div>
-          <div class="process-step"><span>02</span><strong>Camera traps + acoustics</strong><small>Continuous monitoring</small></div>
-          <div class="process-arrow">→</div>
-          <div class="process-step"><span>03</span><strong>Remote sensing</strong><small>Landscape structure &amp; change</small></div>
-          <div class="process-arrow">→</div>
-          <div class="process-step"><span>04</span><strong>Spatial models</strong><small>Occurrence &amp; connectivity</small></div>
-          <div class="process-arrow">→</div>
-          <div class="process-step"><span>05</span><strong>Conservation</strong><small>Priorities &amp; decisions</small></div>
+        <aside class="hero-note" aria-label="Research focus">
+          <span class="note-label">Research focus</span>
+          <strong>Bengal tigers</strong>
+          <span>Connected landscapes</span>
+          <span>People &amp; wildlife</span>
+          <span>South &amp; Southeast Asia</span>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section opening" id="research">
+      <div class="container opening-grid">
+        <div>
+          <p class="eyebrow">Research</p>
+          <h2>Protected areas are only part of the landscape.</h2>
+        </div>
+
+        <div class="opening-copy">
+          <p class="lead">
+            My research asks what happens outside their boundaries: where tigers can move, how connectivity changes their interactions with people, and how populations remain linked across political borders.
+          </p>
+          <p>
+            Northeast India is my primary field landscape, but the questions extend across the wider tiger range.
+          </p>
+        </div>
+      </div>
+
+      <div class="container question-list">
+        <article class="question-card">
+          <div class="question-index">01</div>
+          <div>
+            <p class="card-kicker">Tiger connectivity</p>
+            <h3>Where can tigers still move?</h3>
+            <p>
+              I identify corridors that connect tiger populations and examine how forest structure, prey, infrastructure, settlements, and other human pressures shape those connections.
+            </p>
+          </div>
+        </article>
+
+        <article class="question-card">
+          <div class="question-index">02</div>
+          <div>
+            <p class="card-kicker">People + wildlife</p>
+            <h3>When does connectivity become coexistence—or conflict?</h3>
+            <p>
+              I study how connected wildlife landscapes overlap with human settlement and land use, and whether connectivity helps explain where interactions occur and how severe they become.
+            </p>
+          </div>
+        </article>
+
+        <article class="question-card">
+          <div class="question-index">03</div>
+          <div>
+            <p class="card-kicker">Transboundary conservation</p>
+            <h3>What happens when ecological landscapes cross political borders?</h3>
+            <p>
+              I examine how tiger populations and corridors connect across international boundaries, and which links matter most for long-term persistence and coordinated conservation.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section methods">
+      <div class="container methods-heading">
+        <div>
+          <p class="eyebrow light">How I work</p>
+          <h2>From animal signs to landscape-scale inference.</h2>
+        </div>
+        <p>
+          The methods change with the question. The scientific focus stays the same: understanding wildlife across connected landscapes.
+        </p>
+      </div>
+
+      <div class="container method-track" aria-label="Research methods">
+        <div class="method">
+          <span>01</span>
+          <strong>Field ecology</strong>
+          <small>Signs, habitat, observations</small>
+        </div>
+        <div class="method-line"></div>
+        <div class="method">
+          <span>02</span>
+          <strong>Camera traps</strong>
+          <small>Occurrence, activity, individuals</small>
+        </div>
+        <div class="method-line"></div>
+        <div class="method">
+          <span>03</span>
+          <strong>Passive acoustics</strong>
+          <small>Wildlife &amp; soundscapes</small>
+        </div>
+        <div class="method-line"></div>
+        <div class="method">
+          <span>04</span>
+          <strong>Remote sensing</strong>
+          <small>Landscape structure &amp; change</small>
+        </div>
+        <div class="method-line"></div>
+        <div class="method">
+          <span>05</span>
+          <strong>Spatial models</strong>
+          <small>Distribution, movement, connectivity</small>
         </div>
       </div>
     </section>
 
-    <section class="section" id="projects">
-      <div class="container section-heading">
+    <section class="section current-work" id="projects">
+      <div class="container section-title-row">
         <div>
           <p class="eyebrow">Current work</p>
-          <h2>Questions I am working on now.</h2>
+          <h2>Four questions shaping my PhD.</h2>
         </div>
+        <p>
+          Different datasets and methods, but one connected problem: how large mammals persist in rapidly changing landscapes.
+        </p>
       </div>
 
-      <div class="container project-grid">
-        <article class="project-card">
-          <div class="project-image project-image-1"></div>
-          <div class="project-content">
-            <p class="project-kicker">Tiger connectivity · Northeast India</p>
-            <h3>Connecting tiger landscapes</h3>
-            <p>Understanding how tiger populations remain connected across protected areas and the forests, settlements, infrastructure, and corridors between them.</p>
+      <div class="container projects">
+        <article class="project project-wide">
+          <div class="project-visual visual-connectivity">
+            <span>Connectivity</span>
+          </div>
+          <div class="project-text">
+            <p class="card-kicker">Northeast India</p>
+            <h3>Tiger corridors beyond protected areas</h3>
+            <p>
+              Mapping where tiger movement is still possible and identifying the landscape features that maintain—or erode—connections among populations.
+            </p>
           </div>
         </article>
 
-        <article class="project-card">
-          <div class="project-image project-image-2"></div>
-          <div class="project-content">
-            <p class="project-kicker">Passive acoustics · Machine learning</p>
-            <h3>Listening for tigers</h3>
-            <p>Exploring whether Bengal tigers can be detected—and potentially identified as individuals—from their vocalizations.</p>
+        <article class="project">
+          <div class="project-visual visual-conflict">
+            <span>Coexistence</span>
+          </div>
+          <div class="project-text">
+            <p class="card-kicker">India</p>
+            <h3>Connectivity and human–wildlife interactions</h3>
+            <p>
+              Testing whether wildlife connectivity helps explain the occurrence and severity of interactions with tigers, leopards, elephants, and wild boar.
+            </p>
           </div>
         </article>
 
-        <article class="project-card">
-          <div class="project-image project-image-3"></div>
-          <div class="project-content">
-            <p class="project-kicker">Human–wildlife interactions · India</p>
-            <h3>People, wildlife, and connectivity</h3>
-            <p>Testing how landscape connectivity and human development influence where interactions occur and how severe they become.</p>
+        <article class="project">
+          <div class="project-visual visual-border">
+            <span>Transboundary</span>
+          </div>
+          <div class="project-text">
+            <p class="card-kicker">South &amp; Southeast Asia</p>
+            <h3>Tiger populations across borders</h3>
+            <p>
+              Evaluating cross-border corridors, prey-supported movement landscapes, and the implications of barriers and landscape change for long-term persistence.
+            </p>
           </div>
         </article>
 
-        <article class="project-card">
-          <div class="project-image project-image-4"></div>
-          <div class="project-content">
-            <p class="project-kicker">Transboundary conservation · South Asia</p>
-            <h3>Across political borders</h3>
-            <p>Identifying connections among tiger populations across India and neighboring countries and evaluating their importance for long-term persistence.</p>
+        <article class="project project-wide project-acoustic">
+          <div class="project-visual visual-acoustic">
+            <div class="sound-bars" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <span>Acoustic monitoring</span>
+          </div>
+          <div class="project-text">
+            <p class="card-kicker">Orang National Park</p>
+            <h3>Can we identify individual tigers by their voices?</h3>
+            <p>
+              Developing non-invasive acoustic and machine-learning approaches to detect tiger vocalizations and test whether calls contain reliable individual signatures.
+            </p>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="section fieldwork-section" id="fieldwork">
-      <div class="container section-heading split-heading">
-        <div>
-          <p class="eyebrow">Fieldwork</p>
-          <h2>Ecology begins on the ground.</h2>
+    <section class="section fieldwork" id="fieldwork">
+      <div class="container field-grid">
+        <div class="field-copy">
+          <p class="eyebrow light">Fieldwork</p>
+          <h2>Assam is where much of the science begins.</h2>
+          <p>
+            I combine camera trapping, acoustic monitoring, sign surveys, and habitat observations across protected areas, reserve forests, corridors, and surrounding human-used landscapes.
+          </p>
+          <p class="field-note">
+            Your field photographs will replace the visual panels here as we build the next version.
+          </p>
         </div>
-        <p>Much of my field research takes place across tiger landscapes in Assam using camera traps, acoustic recorders, wildlife sign surveys, and habitat observations.</p>
-      </div>
 
-      <div class="container photo-grid">
-        <div class="photo photo-a"><span>Camera trapping</span></div>
-        <div class="photo photo-b"><span>Acoustic monitoring</span></div>
-        <div class="photo photo-c"><span>Tiger landscapes</span></div>
-        <div class="photo photo-d"><span>Field teams</span></div>
+        <div class="field-photos" aria-label="Fieldwork image placeholders">
+          <div class="field-photo fp-one"><span>Camera trapping</span></div>
+          <div class="field-photo fp-two"><span>Acoustics</span></div>
+          <div class="field-photo fp-three"><span>Landscape</span></div>
+        </div>
       </div>
     </section>
 
-    <section class="section publications-section" id="publications">
-      <div class="container section-heading split-heading">
+    <section class="section publications" id="publications">
+      <div class="container section-title-row">
         <div>
           <p class="eyebrow">Publications</p>
           <h2>Selected research.</h2>
         </div>
-        <p>Use this section for three papers that best represent your current scientific identity—not simply your three most recent papers.</p>
+        <p>
+          We will replace these placeholders with the three papers that best represent your current research direction.
+        </p>
       </div>
 
-      <div class="container publication-list">
-        <article class="publication-item">
-          <span class="pub-year">YEAR</span>
+      <div class="container pub-list">
+        <article class="pub">
+          <span class="pub-year">01</span>
           <div>
-            <h3>Add your strongest tiger / connectivity paper here</h3>
-            <p class="journal">Journal name</p>
-            <p>One sentence explaining the main ecological result in plain language.</p>
+            <p class="card-kicker">Tiger ecology</p>
+            <h3>Selected tiger / connectivity paper</h3>
+            <p>One plain-language sentence about the ecological result will go here.</p>
           </div>
-          <a href="#" aria-label="View publication">View paper ↗</a>
+          <span class="pub-arrow">↗</span>
         </article>
-        <article class="publication-item">
-          <span class="pub-year">YEAR</span>
+
+        <article class="pub">
+          <span class="pub-year">02</span>
           <div>
-            <h3>Add a second publication that represents your research direction</h3>
-            <p class="journal">Journal name</p>
-            <p>One sentence explaining what the study contributes.</p>
+            <p class="card-kicker">Landscape change</p>
+            <h3>Selected climate or land-use paper</h3>
+            <p>One plain-language sentence about the ecological result will go here.</p>
           </div>
-          <a href="#" aria-label="View publication">View paper ↗</a>
+          <span class="pub-arrow">↗</span>
         </article>
-        <article class="publication-item">
-          <span class="pub-year">YEAR</span>
+
+        <article class="pub">
+          <span class="pub-year">03</span>
           <div>
-            <h3>Add a third publication here</h3>
-            <p class="journal">Journal name</p>
-            <p>One sentence explaining why this result matters.</p>
+            <p class="card-kicker">Conservation science</p>
+            <h3>Selected broader conservation paper</h3>
+            <p>One plain-language sentence about the ecological result will go here.</p>
           </div>
-          <a href="#" aria-label="View publication">View paper ↗</a>
+          <span class="pub-arrow">↗</span>
         </article>
       </div>
     </section>
 
-    <section class="section about-section" id="about">
+    <section class="section about" id="about">
       <div class="container about-grid">
         <div>
           <p class="eyebrow">About</p>
-          <h2>Science for connected landscapes.</h2>
+          <h2>I work at the intersection of field ecology and landscape science.</h2>
         </div>
-        <div>
-          <p class="lead">My broader goal is to understand how large mammals can persist in increasingly fragmented and human-dominated landscapes—and to translate ecological evidence into practical conservation strategies.</p>
-          <p>I am a PhD candidate in the Department of Forest &amp; Wildlife Ecology at the University of Wisconsin–Madison. My work focuses especially on Bengal tigers and other large mammals in Northeast India.</p>
+
+        <div class="about-copy">
+          <p class="lead">
+            I am a PhD candidate at the University of Wisconsin–Madison studying Bengal tigers and other large mammals, with a particular focus on connected landscapes in Northeast India.
+          </p>
+          <p>
+            My broader goal is to produce science that helps conservation move beyond isolated protected areas toward landscapes where wildlife populations can remain connected while people continue to live and work.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class="contact-section" id="contact">
-      <div class="container contact-inner">
-        <p class="eyebrow light">Contact</p>
-        <h2>Interested in connected landscapes, large mammals, or conservation technology?</h2>
-        <p>I welcome research collaborations in landscape ecology, tiger conservation, passive acoustics, remote sensing, and spatial ecology.</p>
-        <div class="button-row">
-          <a class="button button-light" href="mailto:jdeka@wisc.edu">Get in touch</a>
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow light">Contact</p>
+          <h2>Interested in connected landscapes, tigers, or conservation technology?</h2>
+        </div>
+
+        <div>
+          <p>
+            I welcome collaborations in landscape ecology, large-mammal conservation, passive acoustics, remote sensing, and spatial ecology.
+          </p>
+          <a class="button light-button" href="mailto:jdeka@wisc.edu">jdeka@wisc.edu</a>
         </div>
       </div>
     </section>
@@ -241,15 +338,17 @@
     <div class="container footer-grid">
       <div>
         <strong>Jyotish Ranjan Deka</strong>
-        <p>Wildlife Ecologist · Conservation Scientist</p>
+        <span>Wildlife Ecologist</span>
       </div>
+
       <div class="footer-links">
         <a href="#research">Research</a>
+        <a href="#projects">Current work</a>
         <a href="#publications">Publications</a>
-        <a href="#fieldwork">Fieldwork</a>
-        <a href="mailto:jdeka@wisc.edu">Email</a>
+        <a href="#contact">Contact</a>
       </div>
-      <p class="copyright">© <span id="year"></span> Jyotish Ranjan Deka</p>
+
+      <span>© <span id="year"></span></span>
     </div>
   </footer>
 
