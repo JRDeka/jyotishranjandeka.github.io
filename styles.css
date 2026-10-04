@@ -378,9 +378,9 @@ h3 {
     url("assets/images/project-coexistence.jpg");
 }
 .visual-border {
-  background-image:
-    linear-gradient(135deg, rgba(20,49,39,.12), rgba(195,105,61,.16)),
-    url("assets/images/project-transboundary.jpg");
+  background-image: url("assets/images/transboundary-eastern-himalaya.svg");
+  background-size: cover;
+  background-position: center;
 }
 .visual-acoustic {
   background:
